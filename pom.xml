@@ -411,6 +411,7 @@
                     <excludes>
                         <exclude>integration/*.java</exclude>
                         <exclude>benchmarks/**/*</exclude>
+                        <useSystemClassLoader>false</useSystemClassLoader>
                     </excludes>
                 </configuration>
                 <executions>
