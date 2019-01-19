@@ -408,10 +408,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.21.0</version>
                 <configuration>
+                    <useSystemClassLoader>false</useSystemClassLoader>
                     <excludes>
                         <exclude>integration/*.java</exclude>
                         <exclude>benchmarks/**/*</exclude>
-                        <useSystemClassLoader>false</useSystemClassLoader>
                     </excludes>
                 </configuration>
                 <executions>
